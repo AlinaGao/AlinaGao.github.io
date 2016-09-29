@@ -1,66 +1,465 @@
-<!DOCTYPE html>
+﻿<!--<!DOCTYPE html>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Alinagao.GitHub.io by AlinaGao</title>
-  </head>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="myresume" />
+		<meta name="description" content="myresume" />
+		<title>高玉娟--Web前端开发</title>
 
-        <header>
-          <h1>Alinagao.GitHub.io</h1>
-          <h2>My GitHub Pages</h2>
-        </header>
+		<link rel="stylesheet" type="text/css" href="http://static.500d.me/resources/500d/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="http://static.500d.me/resources/500d/css/new.css" media="all" />
+		<link rel="stylesheet" href="http://static.500d.me/resources/500d/editresume/css/bootstrap.min.css?v=2159" />
+		<link rel="stylesheet" href="http://static.500d.me/resources/500d/editresume/css/zxbj_base.css?v=2818" />
+		<link rel="stylesheet" href="http://static.500d.me/resources/500d/editresume/css/jm0001.css" />
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/AlinaGao" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+		<!--<style>
+			p{text-indent: 2em;}
+			
+			.slide_box img {
+				width: 60px;
+				height: 60px;
+				position: fixed;
+				top: 510px;
+				right: 10px;
+				z-index:10;
+				}
+			
+			.larger {
+				display: none;
+				border: 1px solid #CCCCCC;
+				box-shadow: 5px 5px 5px #ccc;
+				background-color: #FFFFFF;
+				padding: 20px;
+				position: fixed;
+				top: 410px;
+				right: 130px;
+				z-index: 10;
+			}
+			
+			.top_img{
+				position: fixed;
+				top: 610px;
+				right: 20px;
+				z-index:10;
+				background:url(img/top3.png);
+				background-size: 100%;
+				width: 40px;
+				height: 40px;
+			}
+			.top_img:hover{
+				background:url(img/top5.png);
+				background-size: 100%;
+				cursor:pointer;
+			}
+			
+			.slide_box img:hover .larger {
+				display: block;
+			}
+			
+			header div {
+				text-align: center;
+			}
+			header{
+				overflow: hidden;
+			}
+			.bar img.bar_img {
+				width: 26px;
+				height: 26px;
+				line-height: 80px;
+				vertical-align: middle;
+			}
+			/*.bar img.weixin{
+				width: 100px;
+				height: 100px;	
+			}*/
+			
+			.bar img.marLeft {
+				margin-left: 150px;
+			}
+			
+			.bar span {
+				font-family: "微软雅黑", tahoma;
+				color: #333;
+				font-size: 16px;
+				height: 60px;
+				line-height: 60px;
+				margin-left: 10px;
+				padding-bottom: 4px;
+				border-bottom: 1px solid #F66000; 
+				
+			}
+			
+			.m-nav-ul .nav_li:nth-child(3) a.erji_a {
+				color: #F66000;
+			}
+			
+			.m-nav-ul .nav_li:nth-child(3) a.triangle {
+				border-color: #F66000;
+			}
+			
+			.m-top_user li a {
+				box-sizing: content-box;
+				-moz-box-sizing: content-box;
+				-webkit-box-sizing: content-box;
+			}
+			
+			.m-erjinav-ul {
+				margin-top: 25px;
+			}
+			
+			.conTitle{
+				margin-top: 16px;
+			}
+			
+			.thanks p{
+				line-height: 80px;
+				background-color: #eee;
+				font-family: "微软雅黑";				
+				text-align: center;
+				/*text-shadow: 1px 1px 10px #FF4500;*/
 
-        <hr>
+			}
+			.thanks p:nth-child(1){
+				color: #76ba31;
+				font-weight:600;
+				font-size: 30px;
+				text-shadow: 2px 2px rgba(197, 223, 248,0.8),4px 4px rgba(197, 223, 248,0.8),4px 4px rgba(197, 223, 248,0.8),6px 6px rgba(197, 223, 248,0.8)				
+			}
+			.thanks p:nth-child(2){
+				color: #666;
+				font-size: 20px;
+				
+			}
+		</style>-->
+		<script type="text/javascript">
+			
+			function showdiv(){
+				document.getElementById("larger_weixin").style.display = "block";
+			}
+			function hidediv(){
+				document.getElementById("larger_weixin").style.display = "none";
+			}
+		</script>
+	</head>
 
-        <section id="main_content">
-          <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+	<body id="top" style="height:auto;background:#f9f9f9;">
+		<!--微信二维码-->
+		<a href="#" target="_self" class="slide_box" onmouseover="showdiv()" onmouseout="hidediv()"><img src="img/weixin.png"></a>
+		<div id="larger_weixin" class="larger"><img src="img/weixin.png"></div>
+		<a href="#top"><div id="top_img" class="top_img" alt="Scroll to Top" title="Scroll to Top"></div></a>
+		<!--<a href="#" target="_blank" rel="nofollow" class="hr-slide-box"></a>-->
+		<header class="jl-header">
+			<div class="bar">
+				<img class="bar_img" src="img/oe-ic-name.png" alt="name" /><span>高玉娟</span>
+				<img class="bar_img marLeft" src="img/job.png" alt="job intension" /><span>Web前端开发</span>
+				<img class="bar_img marLeft" src="img/icon-tel.png" alt="tel" /><span>17826855113</span>
+				<img class="bar_img marLeft" src="img/icon-email.png" alt="email" /><span>17826855113@163.com</span>
+			</div>
+		</header>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+		<div class="n_dispage_jm">
+			<div class="n_dispage_jm_in resetEditStyle">
+				<!--编辑区域-->
+				<div class="baseStyle clearfix jm0001_j8" id="resume_body">
+					<div class="divLeft clearfix" id="bar">
+						<!--头像-->
+						<div data-toggle="modal" data-target="#myModalHead" class="headDiv" id="resume_head">
+							<img class="myPhoto" style="float: right;" src="img/AlinaGao.jpg" height="200" />
+						</div>
+						<div id="bar_sort"></div>
+						<!--基本信息-->
+						<div class="msgDiv positonDiv resume_add_area resume_sort" id="resume_msg">
+							<div class="baseAge baseMsg baseDel" id="resume_age">
+								<a class="wbdfont"></a>
+								<input class="resume_lang_age" value="政治面貌：中国共产党党员" />
+							</div>
+							<div class="baseAddress baseMsg baseDel" id="resume_address">
+								<a class="wbdfont" for-id="address"></a>
+								<input class="resume_lang_address" value="现居地：浙江省杭州市" />
+							</div>
+							<div class="baseAge baseMsg baseDel" id="resume_age">
+								<a class="wbdfont"></a>
+								<input class="resume_lang_age" value="学校：浙江理工大学" />
+							</div>
+							<div class="baseEmail baseMsg baseDel" id="resume_email">
+								<a class="wbdfont"></a>
+								<input class="resume_lang_book" value="学历：硕士研究生" />
+							</div>
+							<div class="baseMobile baseMsg baseDel" id="resume_mobile">
+								<a class="wbdfont"></a>
+								<input class="resume_lang_mobile" value="1782685513" />
+							</div>
+							<div class="baseEmail baseMsg baseDel" id="resume_email">
+								<a class="wbdfont"></a>
+								<input class="resume_lang_email" value="17826855113@163.com" />
+							</div>
+						</div>
+						<!--姓名、求职意向-->
+						<div class="nameDiv positonDiv" id="resume_name">
+							<h1  style="font-size: 32px;">
+								<div class="resume_msg  resume_notice resume_lang_name">高玉娟</div>
+							</h1>
+							<br>
+							<h2 style="font-size: 18px;">
+								<div class="resume_msg  resume_notice resume_lang_job">计算机技术&nbsp;&nbsp;硕士研究生</div>
+							</h2>
+							<h2 style="font-size: 24px;">
+								<div class="resume_msg  resume_notice resume_lang_job">Web 前端开发</div>
+							</h2>
+						</div>
+					</div>
+					<div class="divRight clearfix resume_main" id="foo">
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+						<div id="foo_sort"></div>
+						<!--教育背景-->
+						<div class="eduDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="edu" id="resume_edu" for-key="edu">
+							
+							<dl>
+								<dt>
+									<a class="resume_icon_diy icon wbdfont" for-id="edu" style="font-size:none"></a>
+									<span><div class="resume_lang_edu">教育背景</div><div class="Border resume_line" for-id="edu" style="width:870px;border-top-style:solid;border-top-width:2px;"></div></span>
+								</dt>
+								<dd class="resume_append_area">
+									<div class="baseContent baseDel resume_item_items resume_delete_area">					
+										<div class="conTitle">
+											<span class="conTitle_time"><div class="resume_time baseBorder" contenteditable="true">2014.09-至今</div></span>
+											<span class="conTitle_company"><div class="resume_unit baseBorder" contenteditable="true">浙江理工大学&nbsp;&nbsp;信息学院</div></span>
+											<span class="conTitle_post"><div class="resume_job baseBorder" contenteditable="true">计算机技术&nbsp;&nbsp;（硕士研究生）</div></span>
+										</div>
+										
+										<div class="baseDel_ resume_delete_area_">				
+											<div class="conDisc baseBorder baseDel resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="纯文本">
+												<p>班级排名前&nbsp;5%，获得一等学业奖学金、“三好研究生”荣誉称号。<br></p>
+											</div>
+										</div>
+										<div class="conTitle">
+											<span class="conTitle_time"><div class="resume_time baseBorder" contenteditable="true">2009.09-2013.06</div></span>
+											<span class="conTitle_company"><div class="resume_unit baseBorder" contenteditable="true">浙江理工大学&nbsp;&nbsp;信息学院</div></span>
+											<span class="conTitle_post"><div class="resume_job baseBorder" contenteditable="true">数字媒体技术&nbsp;&nbsp;（本科）</div></span>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<!--掌握技能-->
+						<div class="eduDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="edu" id="resume_edu" for-key="edu">
+							
+							<dl>
+								<dt>
+									<!--<a class="resume_icon_diy icon wbdfont" for-id="edu" style="font-size:none"></a>-->
+									<a class="resume_icon_diy icon wbdfont" for-id="cart" style="font-size:none"></a>
+									<span><div class="resume_lang_edu">掌握技能</div><div class="Border resume_line" for-id="edu" style="width:870px;border-top-style:solid;border-top-width:2px;"></div></span>
+								</dt>
+								<dd class="resume_append_area">
+									<div class="baseContent baseDel resume_item_items resume_delete_area">					
+										<div class="baseDel_ resume_delete_area_">				
+											<div class="conDisc baseBorder baseDel resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="纯文本">
+												<p>1.	掌握HTML、CSS、JavaScript。<br></p>
+												<p>2.	精通DIV+CSS网页布局与样式；熟悉HTML5+CSS3、JSON、AJAX、jQuery、AngularJS、Bootstrap等。</p>
+												<p>3.	熟练运用Photoshop、Sublime text、HBuilder、Chrome、FastStone Capture等常用网页设计制作软件。</p>
+												<p>4.	有一定的网页设计制作能力。</p>
+											</div>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						
+						<!--项目经验-->
+						<div class="workDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="work" id="resume_work" for-key="work">
+							<dl>
+								<dt>
+									<a class="resume_icon_diy icon wbdfont" for-id="work" style="font-size:none"></a>
+									<span><div class="resume_lang_work">项目经验</div><div class="Border resume_line" for-id="work" style="width:870px;border-top-style:solid;border-top-width:2px;"></div></span>
+								</dt>
+				
+								
+								<dd class="resume_append_area">
+									<div class="baseContent baseDel resume_item_items resume_delete_area">
+										<div class="conTitle">
+											<span class="conTitle_time"><div class="resume_time baseBorder" contenteditable="true">2015.10-2015.05</div></span>
+											<span class="conTitle_company"><div class="resume_unit baseBorder" contenteditable="true">杭州农鑫科技有限公司</div></span>
+											<span class="conTitle_post"><div class="resume_job baseBorder" contenteditable="true">Web前端开发-基于Web的溯源农产品管理系统开发</div></span>
+										</div>
+										<div class="baseDel_ resume_delete_area_">
+											<div class="delete_ resume_delete_"></div>
+											<div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
+												<p>1.	负责首页最新产品模块及冠军产品模块的页面设计与前端开发；</p>
+												<p>2.	负责各类农产品信息、合作企业信息的页面布局与制作；</p>
+												<p>3.	参与后台数据的录入与维护。</p>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+											</div>
+										</div>
+									</div>
+								</dd>
+								
+								<dd class="resume_append_area">
+									<div class="baseContent baseDel resume_item_items resume_delete_area">
+										<div class="conTitle">
+											<span class="conTitle_time"><div class="resume_time baseBorder" contenteditable="true">2015/06—2016/06</div></span>
+											<span class="conTitle_company"><div class="resume_unit baseBorder" contenteditable="true">智能检测与系统实验室</div></span>
+											<span class="conTitle_post"><div class="resume_job baseBorder" contenteditable="true">撰写软件著作权5篇</div></span>
+										</div>
+										<div class="baseDel_ resume_delete_area_">
+											<div class="delete_ resume_delete_"></div>
+											<div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
+												<p>1.	撰写软件设计和说明文档，绘制E-R图、UML类图等，并编写测试用例；</p>
+												<p>2.	整理软件源代码编写技术文档；</p>
+												<p>3.	准备和整理申报软件著作权所需的申报材料。</p>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+											</div>
+										</div>
+									</div>
+								</dd>
+								<dd class="resume_append_area">
+									<div class="baseContent baseDel resume_item_items resume_delete_area">
+										<div class="conTitle">
+											<span class="conTitle_time"><div class="resume_time baseBorder" contenteditable="true">2015/06—2016/06</div></span>
+											<span class="conTitle_company"><div class="resume_unit baseBorder" contenteditable="true">智能检测与系统实验室</div></span>
+											<span class="conTitle_post"><div class="resume_job baseBorder" contenteditable="true">UI设计-基于Android的个性化智能饮食推荐系统</div></span>
+										</div>
+										<div class="baseDel_ resume_delete_area_">
+											<div class="delete_ resume_delete_"></div>
+											<div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
+												<p>1.	参与系统的界面布局与UI设计；</p>
+												<p>2.	使用HTML5和jQuery Mobile进行手机客户端界面的制作；</p>
+												<p>3.	协助开发人员进行测试。</p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+											</div>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<!--校内职务-->
+						<div class="outexperDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="in_school" id="resume_in_school" for-key="in_school">
+							<dl>
+								<dt>
+									<a class="resume_icon_diy icon wbdfont" for-id="in_school" style="font-size:none"></a>
+									<span><div class="resume_lang_in_school">校内职务</div><div class="Border" for-id="in_school" style="width:870px;border-top-style:solid;border-top-width:2px;"></div></span>
+								</dt>
+								<dd class="resume_append_area">
+									<div class="baseContent baseDel resume_item_items resume_delete_area">
+										<div class="conTitle">
+											<span class="conTitle_time"><div class="baseBorder" contenteditable="true">2014.09-至今</div></span>
+											<span class="conTitle_company"><div class="baseBorder" contenteditable="true">团支书</div></span>
+										</div>
+										<div class="baseDel_ resume_delete_area_">
+											<div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="纯文本">
+												<p>工作内容及成果：负责本团支部团部信息的整理、会议召开、选举工作等，为党的事业奠基石。 </p>
+											</div>
+										</div>
+									</div>
+									<div class="baseContent baseDel resume_item_items resume_delete_area">
+										<div class="conTitle">
+											<span class="conTitle_time"><div class="baseBorder" contenteditable="true">2011.09-2013.06</div></span>
+											<span class="conTitle_company"><div class="baseBorder" contenteditable="true">组织委员</div></span>
+										</div>
+										<div class="baseDel_ resume_delete_area_">
+											<div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="纯文本">
+												<p>工作内容及成果：组织班级同学参加校内各种活动和班级自主活动，协助班长、团支书以及其他班委的工作等等。 </p>
+											</div>
+										</div>
+									</div>
+									<div class="baseContent baseDel resume_item_items resume_delete_area">
+										<div class="conTitle">
+											<span class="conTitle_time"><div class="baseBorder" contenteditable="true">2009.09-2011.06</div></span>
+											<span class="conTitle_company"><div class="baseBorder" contenteditable="true">生活委员</div></span>
+										</div>
+										<div class="baseDel_ resume_delete_area_">
+											<div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="纯文本">
+												<p>工作内容及成果：班费管理、宿舍日常管理，带领同学布置班级活动会场，团结每位同学参加班级活动，协助班干管理班级事务。  </p>
+											</div>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						
+						<!--技能证书-->
+						<div class="cartDiv baseItem positonDiv resume_item resume_sort resume_notice" notice-key="cert" id="resume_cart" for-key="cart">
+							<dl>
+								<dt>
+									<a class="resume_icon_diy icon wbdfont" for-id="cart" style="font-size:none"></a>
+									<span><div class="resume_lang_cart">技能证书</div><div class="Border resume_line" for-id="cart" style="width:870px;border-top-style:solid;border-top-width:2px;"></div></span>
+								</dt>
+								<dd>
+									<div class="baseContent">
+										<div class="conDisc baseBorder resume_lang_cert_value resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="纯文本">
+											<p>CET-4，良好的英语听说写能力</p>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<!--奖项荣誉-->
+						<div class="honorDiv baseItem positonDiv resume_item resume_sort resume_notice" notice-key="honor" id="resume_honor" for-key="honor">
+							<dl>
+								<dt>
+									<a class="resume_icon_diy icon wbdfont" for-id="honor" style="font-size:none"></a>
+									<span><div class="resume_lang_honor">奖项荣誉</div><div class="Border resume_line" for-id="honor" style="width:870px;border-top-style:solid;border-top-width:2px;"></div></span>
+								</dt>
+								<dd>
+									<div class="baseContent">
+										<div class="conDisc baseBorder resume_lang_honor_value resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="纯文本">
+											<p>2015年09月--“三好研究生”荣誉称号，一等学业奖学金 </p>
+											<p>2013年09月--&nbsp;&nbsp;二等奖学金</p>
+											<p>2011年10月--&nbsp;&nbsp;国家励志奖学金</p>
+											<p>2011年05月--“优秀学生干部”荣誉称号</p>
+											<p>2010年09月--“社会先进工作”荣誉称号</p>
+											<p>2010年05月--“三好学生”荣誉称号，二等优秀奖学金</p>
+															</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<!--自我评价-->
+						<div class="selfDiv baseItem positonDiv resume_item resume_sort resume_notice" notice-key="self" id="resume_self" for-key="self">
+							<dl>
+								<dt>
+									<a class="resume_icon_diy icon wbdfont" for-id="self" style="font-size:none"></a>
+									<span><div class="resume_lang_self">自我评价</div><div class="Border resume_line" for-id="self" style="width:870px;border-top-style:solid;border-top-width:2px;"></div></span>
+								</dt>
+								<dd>
+									<div class="baseContent">
+										<div class="conDisc baseBorder resume_lang_self_value resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="纯文本">
+											<p>熟悉HTML、CSS+DIV、JavaScript，具有网页布局和色彩搭配的分析能力，会使用Photoshop软件进行切图操作，具备前端页面与脚本开发经验;</p>
+											<p>多次担任学生干部，具备良好的人际交往能力，也锻炼了较强的统筹能力及抗压能力；</p>											
+											<p>积极向上，性格开朗，爱好特长包括游泳、羽毛球、绘画等；</p>
+											<p>关心当今时事，热心公益事业，多次参与志愿者活动，献血活动等。</p>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<!--名言警句-->
+						<div class="selfDiv baseItem positonDiv resume_item resume_sort resume_notice" notice-key="self" id="resume_self" for-key="self">
+							<dl>
+								<dt>
+									<a class="resume_icon_diy icon wbdfont" for-id="self" style="font-size:none"></a>
+									<span><div class="resume_lang_self">名言警句</div><div class="Border resume_line" for-id="self" style="width:870px;border-top-style:solid;border-top-width:2px;"></div></span>
+								</dt>
+								<dd>
+									<div class="baseContent">
+										<div class="conDisc baseBorder resume_lang_self_value resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="纯文本">
+											<p>把意念沉潜得下,何理不可得；把志气奋发得起,何事不可做。</p>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="jl-footer">
+			<div class="thanks">
+				<p>感谢贵公司的关注，如有机会，定当为咱们公司尽心尽力！</p>	
+				<p>^_^&nbsp;如若有学习、工作心得指点于我，也非常期待您的分享！&nbsp;^_^</p>	
+			</div>
+		</footer>
+	</body>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <footer>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
-    </div>
-  </body>
 </html>
