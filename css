@@ -1,0 +1,117 @@
+p{text-indent: 2em;}
+			
+			.slide_box img {
+				width: 60px;
+				height: 60px;
+				position: fixed;
+				top: 510px;
+				right: 10px;
+				z-index:10;
+				}
+			
+			.larger {
+				display: none;
+				border: 1px solid #CCCCCC;
+				box-shadow: 5px 5px 5px #ccc;
+				background-color: #FFFFFF;
+				padding: 20px;
+				position: fixed;
+				top: 410px;
+				right: 130px;
+				z-index: 10;
+			}
+			
+			.top_img{
+				position: fixed;
+				top: 610px;
+				right: 20px;
+				z-index:10;
+				background:url(img/top3.png);
+				background-size: 100%;
+				width: 40px;
+				height: 40px;
+			}
+			.top_img:hover{
+				background:url(img/top5.png);
+				background-size: 100%;
+				cursor:pointer;
+			}
+			
+			.slide_box img:hover .larger {
+				display: block;
+			}
+			
+			header div {
+				text-align: center;
+			}
+			header{
+				overflow: hidden;
+			}
+			.bar img.bar_img {
+				width: 26px;
+				height: 26px;
+				line-height: 80px;
+				vertical-align: middle;
+			}
+			/*.bar img.weixin{
+				width: 100px;
+				height: 100px;	
+			}*/
+			
+			.bar img.marLeft {
+				margin-left: 150px;
+			}
+			
+			.bar span {
+				font-family: "微软雅黑", tahoma;
+				color: #333;
+				font-size: 16px;
+				height: 60px;
+				line-height: 60px;
+				margin-left: 10px;
+				padding-bottom: 4px;
+				border-bottom: 1px solid #F66000; 
+				
+			}
+			
+			.m-nav-ul .nav_li:nth-child(3) a.erji_a {
+				color: #F66000;
+			}
+			
+			.m-nav-ul .nav_li:nth-child(3) a.triangle {
+				border-color: #F66000;
+			}
+			
+			.m-top_user li a {
+				box-sizing: content-box;
+				-moz-box-sizing: content-box;
+				-webkit-box-sizing: content-box;
+			}
+			
+			.m-erjinav-ul {
+				margin-top: 25px;
+			}
+			
+			.conTitle{
+				margin-top: 16px;
+			}
+			
+			.thanks p{
+				line-height: 80px;
+				background-color: #eee;
+				font-family: "微软雅黑";				
+				text-align: center;
+				/*text-shadow: 1px 1px 10px #FF4500;*/
+
+			}
+			.thanks p:nth-child(1){
+				color: #76ba31;
+				font-weight:600;
+				font-size: 30px;
+				text-shadow: 2px 2px rgba(197, 223, 248,0.8),4px 4px rgba(197, 223, 248,0.8),4px 4px rgba(197, 223, 248,0.8),6px 6px rgba(197, 223, 248,0.8)				
+			}
+			.thanks p:nth-child(2){
+				color: #666;
+				font-size: 20px;
+				
+			}
